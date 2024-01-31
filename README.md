@@ -1,16 +1,47 @@
-# random_dog
+# AlgoOcean Machine Test
 
-A new Flutter project.
 
-## Getting Started
+The "AlgoOcean Machine Test" is a Flutter application specifically designed to showcase random images of dogs. Users can enjoy a diverse collection of dog images with each interaction.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Random Dog Images:**
+  - Displays a diverse collection of random images of dogs.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cart Page:**
+  - Allows users to add their favorite dog images to a virtual cart.
+  - Provides a user-friendly cart interface for managing selected dog images.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **History:**
+  - Maintains a history of previously viewed dog images.
+  - Enables users to revisit and enjoy their favorite dog pictures from the past.
+
+## Usage
+
+To explore the world of dogs through this application, follow these simple steps:
+
+## Project Setup
+
+- Clone the git repository
+
+```Console
+git clone https://github.com/adwaidsuresh/algoocean_machine_test.git
+```
+
+- Get all the dependencies
+
+```Console
+flutter pub get
+```
+
+- Generate the codes using build_runner
+
+```Console
+dart run build_runner build
+```
+
+- Run the application
+
+```Console
+flutter run
+```
